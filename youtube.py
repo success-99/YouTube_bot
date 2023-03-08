@@ -5,7 +5,7 @@ from environs import Env
 env = Env()
 env.read_env()
 
-key = env.str("X-RapidAPI_Key")
+key = env.str("XRapidAPI_Key")
 
 
 def youtubedow(link):
